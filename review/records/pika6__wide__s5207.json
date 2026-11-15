@@ -1,0 +1,23 @@
+{
+ "setting": "pika6",
+ "shot": "wide",
+ "seed": 5207,
+ "instance": "lab",
+ "cold": false,
+ "ok": true,
+ "failed_twice": null,
+ "attempt": 1,
+ "steps": 6,
+ "gen_s": 207.47,
+ "sampler_s": 183.15,
+ "peak_mib": 23492,
+ "wh": 16.97,
+ "power_peak_w": 365,
+ "clip": "clips/pika6/wide_s5207.mp4",
+ "clip_frames": 141,
+ "clip_size": "1344x768",
+ "clip_fps": "24/1",
+ "clip_sha256": "1966a2043aafd376e127ee4881d4656b06363f455c3b11915be017978750861b",
+ "utc": "2026-11-11T22:12:51Z",
+ "error": null
+}

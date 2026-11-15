@@ -1,0 +1,23 @@
+{
+ "setting": "base20_rig",
+ "shot": "wide",
+ "seed": 5207,
+ "instance": "rig",
+ "cold": true,
+ "ok": true,
+ "failed_twice": null,
+ "attempt": 1,
+ "steps": 20,
+ "gen_s": 618.26,
+ "sampler_s": 582.45,
+ "peak_mib": 23506,
+ "wh": 52.5,
+ "power_peak_w": 365,
+ "clip": "clips/base20_rig/wide_s5207.mp4",
+ "clip_frames": 141,
+ "clip_size": "1344x768",
+ "clip_fps": "24/1",
+ "clip_sha256": "ffec34dc957aff5f40f70c0606752b91ab21ec3c5eff4fc18eb235ab0eec7458",
+ "utc": "2026-11-12T03:02:35Z",
+ "error": null
+}

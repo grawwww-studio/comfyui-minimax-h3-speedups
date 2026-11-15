@@ -1,0 +1,23 @@
+{
+ "setting": "hyper6",
+ "shot": "close",
+ "seed": 5207,
+ "instance": "rig",
+ "cold": false,
+ "ok": true,
+ "failed_twice": null,
+ "attempt": 1,
+ "steps": 6,
+ "gen_s": 194.12,
+ "sampler_s": 169.33,
+ "peak_mib": 23826,
+ "wh": 16.48,
+ "power_peak_w": 364,
+ "clip": "clips/hyper6/close_s5207.mp4",
+ "clip_frames": 141,
+ "clip_size": "1344x768",
+ "clip_fps": "24/1",
+ "clip_sha256": "d9e2b7ebbb04d23ddc588819047a1b70daac97b84892c44e8753f75d8eb53e86",
+ "utc": "2026-11-12T02:52:15Z",
+ "error": null
+}

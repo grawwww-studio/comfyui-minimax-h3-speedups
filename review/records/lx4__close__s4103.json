@@ -1,0 +1,23 @@
+{
+ "setting": "lx4",
+ "shot": "close",
+ "seed": 4103,
+ "instance": "lab",
+ "cold": false,
+ "ok": true,
+ "failed_twice": null,
+ "attempt": 1,
+ "steps": 4,
+ "gen_s": 146.71,
+ "sampler_s": 122.17,
+ "peak_mib": 23492,
+ "wh": 11.94,
+ "power_peak_w": 361,
+ "clip": "clips/lx4/close_s4103.mp4",
+ "clip_frames": 141,
+ "clip_size": "1344x768",
+ "clip_fps": "24/1",
+ "clip_sha256": "8b1efc5a211742629f3eb4f4178c032d3c6d801e3f8392d1d6a53c43bda0757c",
+ "utc": "2026-11-11T22:34:10Z",
+ "error": null
+}

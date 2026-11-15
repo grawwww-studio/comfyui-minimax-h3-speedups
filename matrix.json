@@ -1,0 +1,137 @@
+{
+ "_comment": "EP09 frozen matrix, read by scripts/ep09_bench.py. Values are those of RULE.md; a change needs an amendment appended to RULE.md first.",
+ "frames_seconds": 5.875,
+ "frames": 141,
+ "fps": 24,
+ "width": 1344,
+ "height": 768,
+ "seeds": [
+  1766580932,
+  4103,
+  5207
+ ],
+ "shots": {
+  "wide": {
+   "id": "T2WIDE-L2",
+   "graph": "inputs/graph_T2WIDE.api.json",
+   "plate": "inputs/plate_T2WIDE-L2.png"
+  },
+  "close": {
+   "id": "T2FRONT-z125-L2",
+   "graph": "inputs/graph_T2FRONT.api.json",
+   "plate": "inputs/plate_T2FRONT-z125-L2.png"
+  }
+ },
+ "settings": [
+  {
+   "id": "pika6",
+   "label": "Pika H3 Flex (Ref2VA LoRA)",
+   "instance": "lab",
+   "headline": true,
+   "est_clip_s": 225,
+   "lora": "pika_h3_flex_ref2va_comfy_bf16.safetensors",
+   "lora_strength": 1.0,
+   "sampler": "lcm",
+   "sigmas": "manual:1.0, 0.972973, 0.923077, 0.8, 0.571429, 0.333333, 0.0",
+   "steps": 6,
+   "shift_video": null,
+   "shift_audio": null,
+   "source": "Pika-Labs/Pika-H3-Flex comfy/README.md (knots 1000/750/500/250/100/40/0, video shift 12, audio shift 3, lcm = fresh noise between steps); sigma list = those knots shifted by 12 (verified by arithmetic) = the list of the production graph"
+  },
+  {
+   "id": "lx4",
+   "label": "LightX2V Turbo 4-step v0.1 (Ref2VA)",
+   "instance": "lab",
+   "headline": true,
+   "est_clip_s": 175,
+   "lora": "minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+   "lora_strength": 1.0,
+   "sampler": "euler",
+   "sigmas": "simple",
+   "steps": 4,
+   "shift_video": null,
+   "shift_audio": null,
+   "source": "ModelTC/Minimax-H3-Turbo README table (Ref2VA Turbo 4-step v0.1, shifts 12/3, 4 NFE) and example_workflows/video_minimax_h3_ref2v_lightx2v_turbo.json (KSamplerSelect euler, BasicScheduler simple 4, LoRA 1.0)"
+  },
+  {
+   "id": "lx8",
+   "label": "LightX2V Turbo 8-step v1.0 768p (Ref2VA)",
+   "instance": "lab",
+   "headline": true,
+   "est_clip_s": 270,
+   "lora": "minimax_h3_ref2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors",
+   "lora_strength": 1.0,
+   "sampler": "euler",
+   "sigmas": "simple",
+   "steps": 8,
+   "shift_video": 6.0,
+   "shift_audio": 3.0,
+   "source": "lightx2v/Minimax-h3-Turbo (file exists, no card text for it; README table lists only the sibling FL2VA 768p 8-step: trained shifts 6/3, 8 NFE). Shift 6/3 for the Ref2VA file is by analogy to that sibling: UNVERIFIED. Sampler euler as in the same author's Ref2VA example."
+  },
+  {
+   "id": "base20",
+   "label": "No speed LoRA (ComfyUI R2V template defaults)",
+   "instance": "lab",
+   "headline": true,
+   "est_clip_s": 560,
+   "lora": null,
+   "lora_strength": null,
+   "sampler": "res_multistep",
+   "sigmas": "simple",
+   "steps": 20,
+   "shift_video": null,
+   "shift_audio": null,
+   "source": "ComfyUI video_minimax_h3_r2v template (KSamplerSelect res_multistep, BasicScheduler simple 20, BasicGuider) and docs.comfy.org MiniMax H3 overview: defaults, Lightning LoRA off, 20 steps"
+  },
+  {
+   "id": "hyper6",
+   "label": "HyperFlow H3 Flash (compressed model, 6 steps)",
+   "instance": "rig",
+   "headline": true,
+   "est_clip_s": 190,
+   "lora": null,
+   "lora_strength": null,
+   "unet": "minimax_h3_ref2va_hyperflow_flash_14b-int8_convrot.safetensors",
+   "loader": "HyperFlowLoader",
+   "sampler": "euler",
+   "sigmas": "hyperflow:6",
+   "steps": 6,
+   "shift_video": null,
+   "shift_audio": null,
+   "source": "VideoRebirthAI/hyperflow-h3-flash README (4, 6 or 8 steps, default 6, no CFG) and ComfyUI-HyperFlow-Flash example hyperflow_ref2v_int8_api.json (HyperFlowLoader, HyperFlowSigmas 6, euler, BasicGuider)"
+  },
+  {
+   "id": "lx8s12",
+   "label": "LightX2V 8-step with default shift 12/3 (hedge for the unverified shift)",
+   "instance": "lab",
+   "headline": false,
+   "est_clip_s": 270,
+   "lora": "minimax_h3_ref2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors",
+   "lora_strength": 1.0,
+   "sampler": "euler",
+   "sigmas": "simple",
+   "steps": 8,
+   "shift_video": null,
+   "shift_audio": null,
+   "source": "same file as lx8, model default shift 12/3 (ComfyUI docs: default shifts 12 and 3). Report-only, never the headline of lx8."
+  },
+  {
+   "id": "base20_rig",
+   "label": "base20 timing anchor on the rig (Amendment 2): seed 5207 only, both shots",
+   "instance": "rig",
+   "headline": false,
+   "est_clip_s": 600,
+   "lora": null,
+   "lora_strength": null,
+   "sampler": "res_multistep",
+   "sigmas": "simple",
+   "steps": 20,
+   "shift_video": null,
+   "shift_audio": null,
+   "source": "same graph as base20, run on the rig instance in the hyper6 session (Amendment 1 d)",
+   "seeds": [
+    5207
+   ]
+  }
+ ]
+}

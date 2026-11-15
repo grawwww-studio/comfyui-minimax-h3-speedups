@@ -1,0 +1,23 @@
+{
+ "setting": "base20",
+ "shot": "close",
+ "seed": 5207,
+ "instance": "lab",
+ "cold": false,
+ "ok": true,
+ "failed_twice": null,
+ "attempt": 1,
+ "steps": 20,
+ "gen_s": 600.93,
+ "sampler_s": 576.46,
+ "peak_mib": 24068,
+ "wh": 51.47,
+ "power_peak_w": 364,
+ "clip": "clips/base20/close_s5207.mp4",
+ "clip_frames": 141,
+ "clip_size": "1344x768",
+ "clip_fps": "24/1",
+ "clip_sha256": "c721ffbce9bc790f98a1fbe06244d6d10357df792e68f6f9d529f54bf6063b9e",
+ "utc": "2026-11-12T00:09:20Z",
+ "error": null
+}

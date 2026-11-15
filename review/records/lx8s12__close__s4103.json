@@ -1,0 +1,23 @@
+{
+ "setting": "lx8s12",
+ "shot": "close",
+ "seed": 4103,
+ "instance": "lab",
+ "cold": false,
+ "ok": true,
+ "failed_twice": null,
+ "attempt": 1,
+ "steps": 8,
+ "gen_s": 267.47,
+ "sampler_s": 243.09,
+ "peak_mib": 23492,
+ "wh": 22.06,
+ "power_peak_w": 363,
+ "clip": "clips/lx8s12/close_s4103.mp4",
+ "clip_frames": 141,
+ "clip_size": "1344x768",
+ "clip_fps": "24/1",
+ "clip_sha256": "69a5708e870976d6021446513d075aabe88d8f57bb202be763de3e26fefb4011",
+ "utc": "2026-11-12T00:34:39Z",
+ "error": null
+}

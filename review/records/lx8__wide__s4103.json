@@ -1,0 +1,23 @@
+{
+ "setting": "lx8",
+ "shot": "wide",
+ "seed": 4103,
+ "instance": "lab",
+ "cold": false,
+ "ok": true,
+ "failed_twice": null,
+ "attempt": 1,
+ "steps": 8,
+ "gen_s": 267.95,
+ "sampler_s": 243.73,
+ "peak_mib": 23428,
+ "wh": 21.98,
+ "power_peak_w": 366,
+ "clip": "clips/lx8/wide_s4103.mp4",
+ "clip_frames": 141,
+ "clip_size": "1344x768",
+ "clip_fps": "24/1",
+ "clip_sha256": "5cdc55ddb170e7007c2476c0bd9d9d67ca0dad1fa7e5a45d46e0fd9c5cb593ac",
+ "utc": "2026-11-11T22:48:06Z",
+ "error": null
+}

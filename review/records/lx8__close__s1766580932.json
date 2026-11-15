@@ -1,0 +1,23 @@
+{
+ "setting": "lx8",
+ "shot": "close",
+ "seed": 1766580932,
+ "instance": "lab",
+ "cold": false,
+ "ok": true,
+ "failed_twice": null,
+ "attempt": 1,
+ "steps": 8,
+ "gen_s": 285.65,
+ "sampler_s": 250.37,
+ "peak_mib": 23460,
+ "wh": 22.84,
+ "power_peak_w": 364,
+ "clip": "clips/lx8/close_s1766580932.mp4",
+ "clip_frames": 141,
+ "clip_size": "1344x768",
+ "clip_fps": "24/1",
+ "clip_sha256": "e50dbe2a923a7a8d9c0edde3958ad57eca6a136e0b95d437c109631021e17850",
+ "utc": "2026-11-11T22:57:23Z",
+ "error": null
+}

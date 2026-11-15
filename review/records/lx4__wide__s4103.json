@@ -1,0 +1,23 @@
+{
+ "setting": "lx4",
+ "shot": "wide",
+ "seed": 4103,
+ "instance": "lab",
+ "cold": false,
+ "ok": true,
+ "failed_twice": null,
+ "attempt": 1,
+ "steps": 4,
+ "gen_s": 146.35,
+ "sampler_s": 121.98,
+ "peak_mib": 23492,
+ "wh": 11.95,
+ "power_peak_w": 360,
+ "clip": "clips/lx4/wide_s4103.mp4",
+ "clip_frames": 141,
+ "clip_size": "1344x768",
+ "clip_fps": "24/1",
+ "clip_sha256": "8316d3c4f11c5a7d09ed2018328ffe3623355a342662f3014e654daeb439f1f5",
+ "utc": "2026-11-11T22:28:54Z",
+ "error": null
+}

@@ -1,0 +1,23 @@
+{
+ "setting": "hyper6",
+ "shot": "wide",
+ "seed": 1766580932,
+ "instance": "rig",
+ "cold": true,
+ "ok": true,
+ "failed_twice": null,
+ "attempt": 1,
+ "steps": 6,
+ "gen_s": 211.72,
+ "sampler_s": 173.03,
+ "peak_mib": 19984,
+ "wh": 17.0,
+ "power_peak_w": 363,
+ "clip": "clips/hyper6/wide_s1766580932.mp4",
+ "clip_frames": 141,
+ "clip_size": "1344x768",
+ "clip_fps": "24/1",
+ "clip_sha256": "88278f747c369efa38ef611bd55705dc1e7b1ea33db89176cf81c72cdc6f4725",
+ "utc": "2026-11-12T02:35:38Z",
+ "error": null
+}
