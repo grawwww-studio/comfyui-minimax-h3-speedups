@@ -2,7 +2,7 @@
 
 Four ways to make the MiniMax H3 video model faster in ComfyUI, timed against the plain 20-step run on one RTX 4090, and checked for one thing: does the generated woman still look like the character sheet she was generated from. The rule that decides "still her" was written and frozen before the first clip was measured. This is the material behind the YouTube episode «MiniMax H3 in ComfyUI: 600s to 147s with a 4-Step LoRA (RTX 4090 Face Check)».
 
-- Video: link added when the episode is public
+- Video: https://youtu.be/btxkqHtJWgQ
 - Test log, not a benchmark: one character, two framings, three seeds, one card. Read "What was not measured" before you copy a number.
 
 ## What was tested
